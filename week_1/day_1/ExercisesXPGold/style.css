@@ -1,0 +1,84 @@
+header
+{
+    background:whitesmoke;
+    padding:7px;
+    
+}
+h3,button
+{
+    display: inline;
+    
+}
+h3{
+    margin-left: 150px;
+
+
+}
+button
+{
+    margin-right:  150px;
+    
+}
+.sign-in{
+    float: right;
+    
+    background:blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+h2{
+    margin-left: 130px;
+    color: white;
+
+
+}
+p{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+}
+#Background
+{
+    background-image:url(pexels-damon-hall-2274725.jpg) ;
+    padding:9px;
+    height: 400px;
+}
+
+.sign-up
+{
+    background:blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 6px;
+    margin: 2px;
+}
+.font_aweson_icone
+{
+    display: flex;
+    position: absolute;
+    left: 130px;
+
+    margin: 5px;
+        
+
+}
+.icone
+{
+   
+    display: inline;
+}
+h3{
+    position: relative;
+    right: 85px;
+}
+.fa-solid,.fa-brands,.fa-circle-check
+{
+    margin: 17px;
+    font-size: 100px;
+    color: blue;
+
+}
