@@ -1,0 +1,42 @@
+img
+{
+    width: 220px;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+
+}
+.contenu
+{
+    margin-bottom: 15px;
+}
+.corps
+{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+
+
+}
+span{
+    text-decoration: line-through;
+}
+
+.real-price
+{
+    color: green;
+    text-decoration: none;
+}
+footer
+{
+    text-align: center;
+    background: yellowgreen;
+    padding:12px;
+    width: auto;
+    
+}
+button:hover{
+    background: green;
+}
