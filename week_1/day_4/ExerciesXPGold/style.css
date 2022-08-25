@@ -1,0 +1,16 @@
+.bg-size-half{
+    background-size: 100%;
+  }
+  a{
+    font-weight: bold;
+
+  }
+  
+  .fa-mobile-screen,.fa-wallet,.fa-lightbulb
+  {
+    font-size: 70px;
+    color: blue;
+  }
+  i>p{
+    color: aqua;
+  }

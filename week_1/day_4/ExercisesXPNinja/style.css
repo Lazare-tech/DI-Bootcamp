@@ -1,0 +1,31 @@
+.bg-size-half{
+    background-size: 100%;
+  }
+  a{
+    font-weight: bold;
+
+  }
+  
+  .fa-mobile-screen,.fa-wallet,.fa-lightbulb
+  {
+    font-size: 70px;
+    color: blue;
+  }
+  i>p{
+    color: aqua;
+  }
+  .fa-solid
+  {
+    font-size: 52px;
+  }
+  .fa-user-check,.fa-signal,.fa-book
+  {
+    color: green;
+    
+  }
+  
+  .d {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
