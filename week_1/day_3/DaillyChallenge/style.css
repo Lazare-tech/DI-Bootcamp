@@ -1,0 +1,24 @@
+body {
+    margin: 40px;
+  }
+  
+  .box {
+    background-color: orangered;
+    color: chocolate;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+  
+  .box:nth-child(even) {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .wrapper {
+    width: 600px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(9, 50px);
+    grid-template-rows: 50px 50px 50px;
+  }
