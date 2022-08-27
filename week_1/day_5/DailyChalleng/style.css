@@ -1,0 +1,105 @@
+body>div
+{
+    width: 400px;
+    height: 300px;
+    background:#676470;
+    transition:all 0.4s ease;
+    position: relative;
+    left: 200px;
+
+}
+
+
+.divl:hover
+{
+        background: red;
+}
+.grow:hover
+{
+    -webkit-transform: scaleX(1.3);
+    -ms-transform: scaleX(1.3);
+    transform: scaleX(1.3);
+}
+
+@keyframes div3{
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+.div3
+{
+    background-color: red;
+    animation-name: div3;
+    animation-duration: 30s;
+}
+@keyframes div4 {
+    0% { background-color: black;}
+    25% { background-color: green;}
+    50% { background-color: blue;}
+    100% {
+        background-color: orchid;
+    }
+}
+.div4
+{
+    background-color: black;
+    animation-name:div4;
+    animation-duration: 20s;
+}
+@keyframes div5{
+    0% { left: 0px;}
+    25% { left:100px}
+    50% { left: 400px;}
+}
+.div5
+{
+    animation-name: div5;
+    animation-duration: 20s;
+}
+@keyframes div6{
+    0%{ left: 0px; background-color: green;}
+    25%{ left:120px; background-color: red;}
+    50%{ left: 300px;  background-color: blue;}
+    70% { left: 400px; background-color: yellowgreen;}
+    80% { left: 600px; background-color: yellowgreen;}
+    90% { left: 700px; background-color: rgb(24, 6, 93);}
+
+
+}
+
+.div6
+{
+    background-color: green;
+    animation-name: div6;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes div7{
+    0% {left: 0px;}
+    25% { top:50px}
+    30% { left: 400px;}
+    40% { top:-30px}
+    
+}
+.div7
+{
+    animation-name: div7;
+    animation-duration: 20s;
+}
+@keyframes div8{
+    0% {left: 0px;}
+    25% { top:50px}
+    30% { left: 400px;}
+    40% { top:-30px}
+    
+}
+.div8
+{
+    animation-name: div8;
+    animation-duration: 20s;
+    animation-direction: alternate-reverse;
+}

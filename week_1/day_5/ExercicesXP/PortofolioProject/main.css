@@ -1,0 +1,78 @@
+header
+{
+    background-image: url(images/milky-way-2695569__480.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.port{
+    width: 200px;
+    height: 200px;
+}
+.images
+{
+    width: 200px;
+    height: 200px;
+}
+.me{
+    width: 200px;
+    height: 200px;
+    
+    clip-path:ellipse(50% 50%);
+}
+.card2
+{
+    height: 100px;
+}
+.card3
+{
+    height: 70px;
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+.text
+{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.text>h3{
+    color: orangered;
+
+}
+button{
+    background-color: orangered;
+}
+.send
+{
+    width: 599px;
+
+}
+h4{
+    color: orangered;
+}
+.vertical
+{
+    border-left: 4px solid black;
+    height: 300px;
+    display: inline-block;
+}
+.team
+{
+    width: 100px;
+    height: 100px;
+}
+.fa-brands
+{
+    color: orangered;
+}
+.team-name
+{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    
+}
