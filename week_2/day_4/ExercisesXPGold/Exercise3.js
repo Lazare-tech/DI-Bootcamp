@@ -1,0 +1,4 @@
+//SwapCase
+function swapCase(chaine){
+    
+}
