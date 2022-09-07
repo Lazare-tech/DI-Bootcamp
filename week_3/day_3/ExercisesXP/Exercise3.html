@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+         #target {
+          width: 200px;
+          height: 200px;
+          position: relative;
+          background: yellow;
+        }
+        #box {
+          width: 50px;
+          height: 50px;
+          position: absolute;
+          background-color: red;
+        }
+        </style>
+        <title>Drag and Drop</title>
+    </head>
+    <body>
+        
+     
+        <div id="target"
+        ondrop="dragDrop(event)"
+        ondragover="allowDrop(event)"
+        ondragenter="allowEnter(event)"
+        ondragleave="allowLeave(event)" ></div><br>
+        
+        <div id="box" draggable="true" ondragstart="dragStart(event)" ></div>
+        
+
+        <!-- <div id="square1" draggable="true" ondragstart="dragStart(event)">square1</div> -->
+        
+        <!-- <div id="square2" draggable="true" 
+             ondragstart="dragStart(event)">square2</div> -->
+        
+        <!-- <div id="square3"
+             ondrop="dragDrop(event)"
+             ondragover="allowDrop(event)"
+             ondragenter="allowEnter(event)"
+             ondragleave="allowLeave(event)">square3</div> -->
+        <script src="Exercise3.js"></script>
+    </body>
+    </html>
