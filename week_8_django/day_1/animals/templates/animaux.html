@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Liste des animaux</h2>
+{% for i in liste %}
+    
+<ul><a href="/animals/{{0}}">{{i}}</a>
+    
+</ul>
+{% endfor %}
+{% endblock%}
