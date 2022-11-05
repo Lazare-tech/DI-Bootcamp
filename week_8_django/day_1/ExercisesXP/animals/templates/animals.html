@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content  %}
+    <h2>Liste des animaux</h2>
+    {{ my_json }}
+        {% comment %} <from method="get" action="{% url 'animals' %}">
+            <input type="number" name="animal_id"> {% endcomment %}
+    </form>
+{% endblock %}
