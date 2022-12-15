@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for service in service %}
+    {% comment %} <p>{{ service.avisClient}}<p> {% endcomment %}
+   <div class="container">
+    <p><a href="{% url 'edit_service' service.id %}">Modifier le service</a></p>
+
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="{{ service.image.url }}" class="img-fluid rounded-start" alt=" Image de votre service">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><strong>{{ service.name }}</strong></h5>
+              <small class="text-muted">Description</small>
+              <p class="card-text">
+                {{ service.description}}</p>
+                <small class="text-muted">Phrase d'accroche</small>
+              <p class="card-text">{{ service.titreConcert }}</p>
+              <small class="text-muted">Tarif</small>
+              <p class="card-text"><h4 class="text-muted">{{service.tarif}}</h4></p>
+              <small class="text-muted">Categorie du service</small>
+              <p class="card-text"><h4 class="text-muted">{{ service.categorie}}</h4></p>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <hr>
+        {% endfor %}
+    </div>
+{% endblock content %}
