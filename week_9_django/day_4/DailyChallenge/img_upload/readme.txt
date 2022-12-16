@@ -15,3 +15,9 @@ Autoriser l'utilisateur à filtrer les images selon une plage de dates de télé
 Conseil n'oubliez pas d'installer PILLOW.
 
 Bonus : Utilisez la pagination pour afficher 15 images à la fois
+----------------------------
+INSTALATIONS MODULES
+---------------------------
+pip install pillow
+pip install psycopg2-binary
+pip install django-crispy-forms
