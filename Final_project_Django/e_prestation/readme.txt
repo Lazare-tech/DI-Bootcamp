@@ -24,6 +24,7 @@ coût, ville, image, description, etc...
 ---------------------------
 Lancer le projet
 Installations des outils requis
+--->Creer un dossier Images au meme niveau que le template
 --->pip install psycopg2-binary
 --->pip install pillow
 --->pip install django-crispy-forms
